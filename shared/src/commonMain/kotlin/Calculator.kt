@@ -1,6 +1,6 @@
 class Calculator {
-    fun Add(left: Int, right: Int) = left.plus(right)
-    fun Subtract(left: Int, right: Int) = left.minus(right)
-    fun Multiply(left: Int, right: Int) = left.times(right)
-    fun Divide(left: Int, right: Int) = left.div(right)
+    fun add(left: Int, right: Int) = left.plus(right)
+    fun subtract(left: Int, right: Int) = left.minus(right)
+    fun multiply(left: Int, right: Int) = left.times(right)
+    fun divide(left: Int, right: Int) = left.div(right)
 }
