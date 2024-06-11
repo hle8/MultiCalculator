@@ -1,6 +1,5 @@
 package org.huyle.multicalculator
 
-import App
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -24,19 +23,13 @@ import androidx.compose.ui.unit.dp
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         setContent {
-            App()
+            CalcView()
         }
     }
 }
 
 @Preview
-@Composable
-fun AppAndroidPreview() {
-    App()
-}
-
 @Composable
 fun CalcView() {
     val displayText = remember { mutableStateOf("0") }
