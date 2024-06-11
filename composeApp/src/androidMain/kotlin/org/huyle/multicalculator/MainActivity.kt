@@ -41,7 +41,7 @@ fun CalcView() {
         Row {
             Column {
                 for(i in 7 downTo 1 step 3) {
-                    CalcRow(displayText, i, i)
+                    CalcRow(displayText, i, 3)
                 }
 
                 Row {
